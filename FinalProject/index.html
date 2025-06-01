@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Jet Fleet | Sky Dominance</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Add these right before your closing body tag -->
+<link rel="stylesheet" href="quick-quote.css">
+<script src="quick-quote.js"></script>
+    <style>
+        /* ---- Compact Jet Grid Additions ---- */
+        
+
+    /* ---- Updated Jet Grid Layout ---- */
+    .compact-jet-section {
+        padding: 60px 0;
+        background: white;
+    }
+    
+    .compact-jet-section:nth-child(even) {
+        background: #f8f9fa;
+    }
+    
+    .compact-jet-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* 4 columns */
+        grid-template-rows: repeat(2, auto); /* 2 rows */
+        gap: 20px;
+        padding: 20px 0;
+    }
+    
+    @media (max-width: 1200px) {
+        .compact-jet-grid {
+            grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+            grid-template-rows: repeat(4, auto); /* 4 rows on smaller screens */
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .compact-jet-grid {
+            grid-template-columns: 1fr; /* 1 column on mobile */
+        }
+    }
+    
+    /* Rest of your existing compact jet card styles remain the same */
+    .compact-jet-card {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        overflow: hidden;
+        transition: transform 0.3s;
+    }
+    
+    .compact-jet-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    
+    .compact-jet-image {
+        height: 160px;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .compact-jet-info {
+        padding: 15px;
+    }
+    
+    .compact-jet-info h3 {
+        margin: 0 0 10px;
+        font-size: 1.1rem;
+        color: #0a1a30;
+    }
+    
+    .compact-specs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+        font-size: 0.85rem;
+    }
+    
+    .compact-spec {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    
+    .compact-spec i {
+        color: #d4af37;
+        width: 16px;
+        text-align: center;
+    }
+    
+    .compact-jet-btn {
+        display: block;
+        background: #0a1a30;
+        color: white;
+        text-align: center;
+        padding: 8px;
+        margin-top: 12px;
+        border-radius: 4px;
+        text-decoration: none;
+        font-size: 0.9rem;
+        transition: all 0.3s;
+    }
+    
+    .compact-jet-btn:hover {
+        background: #1a3a6e;
+    }
+
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="main-nav">
+        
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        
+    </header>
+
+    <!-- Jet Categories Navigation -->
+    <nav class="jet-categories-nav">
+       
+<!-- Quick Quote Section - Add this above your footer -->
+<section class="quick-quote-section" id="quick-quote">
+
+
+
+
+<style>
+/* Quick Quote Form Styles */
+
+</style>
+
+<!-- Add this before your footer in jets.html -->
+<section class="quick-quote-section" id="quick-quote">
+    <!-- ... (keep all your existing quote form HTML exactly as is) ... -->
+</section>
+
+<!-- Booking Confirmation Modal - Updated with better positioning -->
+<div class="modal" id="booking-modal" style="display: none;">
+    <div class="modal-content" style="margin-top: 5%;">
+        <!-- ... (keep all your existing modal HTML) ... -->
+    </div>
+</div>
+
+<style>
+    /* Modal Positioning Fix */
+   
+</style>
+
+
+        <!-- Footer -->
+      
+        
+        <script src="script.js"></script>
+        </body>
+        </html>
