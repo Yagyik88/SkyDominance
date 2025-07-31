@@ -47,19 +47,19 @@ SkyDominance is a full-stack web application that simulates a luxurious private 
 ## 🖼️ Screenshots
 
 ### 🔹 Homepage
-![Homepage](./Screenshots/HomePage.png.png)
+![Homepage](./Screenshots/HomePage.png)
 
 ### 🔹 Login Page
-![Login Page](./Screenshots/LoginPage.png.png)
+![Login Page](./Screenshots/LoginPage.png)
 
 ### 🔹 Dynamic Quote Calculator
-![Quote Calculator](./Screenshots/QuickQuoteinAction.png.png)
+![Quote Calculator](./Screenshots/QuickQuoteinAction.png)
 
 ### 🔹 PostgreSQL database schema view  
-![Jets](./Screenshots/PostgresSqlView.png.png)
+![Jets](./Screenshots/PostgresSqlView.png)
 
 ### 🔹 Contact Form
-![Contact](./Screenshots/ContactUsSuccess.png.png)
+![Contact](./Screenshots/ContactUsSuccess.png)
 
 ---
 
