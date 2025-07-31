@@ -1,0 +1,107 @@
+/* ---- Compact Jet Grid Additions ---- */
+.compact-jet-section {
+    padding: 60px 0;
+    background: white;
+}
+
+.compact-jet-section:nth-child(even) {
+    background: #f8f9fa;
+}
+
+.compact-jet-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px 0;
+}
+
+@media (max-width: 1200px) {
+    .compact-jet-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .compact-jet-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.compact-jet-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.compact-jet-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.compact-jet-image {
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+}
+
+.compact-jet-info {
+    padding: 15px;
+}
+
+.compact-jet-info h3 {
+    margin: 0 0 10px;
+    font-size: 1.1rem;
+    color: #0a1a30;
+}
+
+.compact-specs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    font-size: 0.85rem;
+}
+
+.compact-spec {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.compact-spec i {
+    color: #d4af37;
+    width: 16px;
+    text-align: center;
+}
+
+.compact-jet-btn {
+    display: block;
+    background: #0a1a30;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    margin-top: 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.3s;
+}
+
+.compact-jet-btn:hover {
+    background: #1a3a6e;
+}
+/* Ensure modal is hidden by default */
+
+/* Ensure modal is hidden by default */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: auto;
+}
